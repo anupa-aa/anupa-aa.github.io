@@ -38,4 +38,4 @@ disableKinds = ["taxonomy", "term"]
     tabWidth = 2
 
 [outputs]
-  home = ["HTML", "RSS"]
+  home = ["HTML"]

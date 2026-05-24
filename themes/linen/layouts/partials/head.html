@@ -21,7 +21,5 @@
   {{ $css := resources.Get "css/main.css" | fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 
-  <link rel="alternate" type="application/rss+xml" href="{{ "index.xml" | absURL }}" title="{{ site.Title }}">
-
   {{ if .Params.math }}{{ partial "math.html" . }}{{ end }}
 </head>
