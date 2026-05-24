@@ -13,9 +13,6 @@ disableKinds = ["taxonomy", "term"]
     name = "GitHub"
     url = "https://github.com/anupa-aa"
   [[params.social]]
-    name = "Scholar"
-    url = "#"
-  [[params.social]]
     name = "Email"
     url = "mailto:anupa.adikary@gmail.com"
 
