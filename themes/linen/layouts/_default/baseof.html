@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.Locale | default "en" }}">
+{{ partial "head.html" . }}
+<body>
+  <div class="wrap">
+    {{ partial "header.html" . }}
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ partial "footer.html" . }}
+  </div>
+  {{ $toggle := resources.Get "js/theme-toggle.js" | fingerprint }}
+  <script src="{{ $toggle.RelPermalink }}" defer></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+baseURL = "https://anupa.ml/"
+locale = "en-us"
+title = "Anupa Adikary"
+theme = "linen"
+enableRobotsTXT = true
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  description = "ML engineer in computer vision. Writing about vision, scale, and the systems that make models actually work."
+
+  [[params.social]]
+    name = "GitHub"
+    url = "https://github.com/anupa-aa"
+  [[params.social]]
+    name = "Scholar"
+    url = "#"
+  [[params.social]]
+    name = "Email"
+    url = "mailto:anupa.adikary@gmail.com"
+
+[[menu.main]]
+  name = "writing"
+  url = "/writing/"
+  weight = 1
+[[menu.main]]
+  name = "projects"
+  url = "/projects/"
+  weight = 2
+[[menu.main]]
+  name = "about"
+  url = "/about/"
+  weight = 3
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    noClasses = false
+    lineNos = false
+    tabWidth = 2
+
+[outputs]
+  home = ["HTML", "RSS"]

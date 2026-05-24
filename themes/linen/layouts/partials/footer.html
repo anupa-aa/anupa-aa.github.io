@@ -1,0 +1,5 @@
+<footer class="site-foot">
+  {{ range site.Params.social }}<a href="{{ .url }}"{{ if strings.HasPrefix .url "http" }} target="_blank" rel="noopener"{{ end }}>{{ .name }}</a>{{ end }}
+  <a href="{{ "index.xml" | relURL }}">RSS</a>
+  <span class="copy">© {{ now.Year }} {{ site.Title }}</span>
+</footer>

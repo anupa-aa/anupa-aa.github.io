@@ -1,0 +1,10 @@
+# Hugo build output
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# macOS
+.DS_Store
+
+# Local brainstorming companion session (design mockups)
+/.superpowers/

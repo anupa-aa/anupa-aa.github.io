@@ -1,0 +1,4 @@
+name = "Linen"
+license = "MIT"
+min_version = "0.120.0"
+description = "Minimalist warm single-page theme for anupa.ml"

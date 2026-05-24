@@ -1,0 +1,27 @@
+{{ define "main" }}
+  <section class="intro">{{ .Content }}</section>
+
+  <section class="listing">
+    <h2 class="sec-label">Writing</h2>
+    {{ range (where site.RegularPages "Section" "writing").ByDate.Reverse }}
+      <div class="row">
+        <span class="row-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></span>
+        <span class="row-date">{{ .Date.Format "Jan 2006" }}</span>
+      </div>
+    {{ end }}
+  </section>
+
+  <hr class="divider">
+
+  <section class="listing">
+    <h2 class="sec-label">Projects</h2>
+    {{ range (where site.RegularPages "Section" "projects").ByWeight }}
+      <div class="row">
+        <span class="row-title">
+          <a href="{{ with .Params.link }}{{ . }}{{ else }}{{ .RelPermalink }}{{ end }}"{{ with .Params.link }} target="_blank" rel="noopener"{{ end }}>{{ .Title }}</a>{{ with .Params.blurb }} — {{ . }}{{ end }}
+        </span>
+        <span class="row-date accent">→</span>
+      </div>
+    {{ end }}
+  </section>
+{{ end }}
