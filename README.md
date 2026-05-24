@@ -10,16 +10,14 @@ hugo server        # live preview at http://localhost:1313
 
 ## Add a post
 
-Create `content/writing/<slug>.md`:
+Use the Obsidian workflow (below), or scaffold one from the terminal:
 
-```markdown
----
-title: "Post title"
-date: 2026-05-24
-summary: "One-line summary for previews."
-math: true   # optional — loads KaTeX only on this page
----
+```bash
+hugo new content writing/<slug>/index.md   # page bundle, from archetypes/writing.md
 ```
+
+This creates `content/writing/<slug>/index.md` with front matter (`draft: true`,
+`math: true`). Drop images in the same folder and reference them as `![alt](image.png)`.
 
 ## Add a project
 
