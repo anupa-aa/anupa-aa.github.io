@@ -8,3 +8,7 @@
 
 # Local brainstorming companion session (design mockups)
 /.superpowers/
+
+# Obsidian (vault config / trash — not part of the site)
+.obsidian/
+.trash/
