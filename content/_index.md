@@ -1,7 +1,6 @@
 ---
 title: "Anupa Adikary"
 ---
+I’m Anupa, an ML engineer working in computer vision :)
 
-I see you have stumbled upon my secret little blog! Welcome! 
-
-I started this in 2026 to motivate me to keep reading papers regularly (which is a habit I had during uni but work makes it a little difficult) and also so I improve my technical writing. Hope you find something that interests you on here!
+This is my hobby website, where you will find some reports or writeups I make, mainly for my future self. If you spot any mistakes, drop me an email!
