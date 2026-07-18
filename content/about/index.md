@@ -3,15 +3,8 @@ title: "About"
 hidemeta: true
 ---
 
-I'm Anupa Adikary, an ML engineer working in computer vision at Augur. I hold
-an MEng from Oxford, where I specialised in deep learning.
+I'm Anupa, an ML engineer working in computer vision :)
 
-My work centres on perception systems: getting models from a promising result on
-a benchmark to something that runs reliably in the real world. I'm especially
-interested in vision models, efficiency at scale, and the engineering that
-sits between a paper and a deployed model.
+This is my hobby website, where you will find some reports or writeups I make, mainly for my future self. If you spot any mistakes, drop me an email!
 
-I write here for fun (and to get better at writing 😅). If you have any feedback, feel free to shoot me an email!
-
-Reach me at [anupa.adikary@gmail.com](mailto:anupa.adikary@gmail.com) or on
-[GitHub](https://github.com/anupa-aa).
+[anupa.adikary@gmail.com](mailto:anupa.adikary@gmail.com) / [GitHub](https://github.com/anupa-aa) / [Linkedin](https://www.linkedin.com/in/anupaadikary/)

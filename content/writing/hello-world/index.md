@@ -16,7 +16,7 @@ The cost of self-attention is quadratic in sequence length $n$:
 $$\text{Attn}(Q, K, V) = \text{softmax}\!\left(\frac{QK^\top}{\sqrt{d_k}}\right) V$$
 
 For an image split into $n$ patches, that $O(n^2)$ term is what makes
-high-resolution ViTs expensive.
+high-resolution ViTs expensive. 
 
 ```python
 def attention(q, k, v, d_k):
