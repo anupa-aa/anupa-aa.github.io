@@ -1,15 +1,11 @@
 ---
-title: "On the Inductive Biases of Vision Transformers"
+title: Template
 date: 2026-05-20
-summary: "Why ViTs drop the priors ConvNets rely on — and win anyway at scale."
+summary: Technical report xxx
 math: true
 ---
-
-Convolutional networks bake locality and translation equivariance into the
-architecture. Vision Transformers throw that away — and win at scale. Here's why,
-and what we quietly lose along the way.
-
-## Attention isn't free
+Blah blah blah
+## Example
 
 The cost of self-attention is quadratic in sequence length $n$:
 
