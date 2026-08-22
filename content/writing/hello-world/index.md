@@ -4,7 +4,7 @@ date: 2026-05-20
 summary: Technical report xxx
 math: true
 ---
-Blah blah blah
+This is just a template
 ## Example
 
 The cost of self attention is quadratic in sequence length $n$:

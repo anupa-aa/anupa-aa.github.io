@@ -1,6 +1,6 @@
 ---
-title: "CrackedAI"
+title: cracked ai code dot com
 weight: 1
-blurb: "interview-prep platform for engineers"
-link: "https://crackedaicode.com/"
+blurb: an ml leetcody type website (work in progress!)
+link: https://crackedaicode.com/
 ---
