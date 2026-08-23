@@ -54,6 +54,47 @@ publish with one hotkey.
 3. When ready, set `draft: false`.
 4. Hit the commit-and-sync hotkey. GitHub Actions deploys to anupa.ml in ~1–2 minutes.
 
+### Writing maths
+
+Two local plugins (source in `~/Documents/obsidian-plugins`, built into
+`.obsidian/plugins/`) cover the two annoying parts of writing maths here.
+
+**Symbols** — type `:` and a name to get a dropdown, arrow keys to choose, Enter
+to insert:
+
+```
+:delta      →  δ  Δ  ∂  ∇
+:grad       →  ∇
+:approx     →  ≈
+:expected value →  𝔼
+```
+
+Matching covers plain English as well as the symbol's own name, so `:gradient`,
+`:nabla` and `:grad` all land on the same character. It remembers which variant
+you pick for a given query and floats that one to the top next time. In prose it
+inserts the Unicode character; inside `$…$` it inserts `\delta` instead.
+
+**Equations** — type `:"` then describe what you want in English and press Enter:
+
+```
+:"adamw update rule
+:"cross entropy loss for multiclass
+:"the softmax function
+```
+
+The description goes to the `claude` CLI (your normal Claude Code login, no API
+key) and comes back as LaTeX, wrapped in `$…$` or `$$…$$` — the dropdown offers
+both. Takes 3-5 seconds; repeats of the same description are cached and instant.
+The plugin sets `math: true` in the front matter so KaTeX loads on the page.
+
+Rebuild after changing either plugin:
+
+```bash
+cd ~/Documents/obsidian-plugins && npm run build
+```
+
+Then run **Reload app without saving** from the Obsidian command palette.
+
 Drafts (`draft: true`) never appear on the live site, so a push can't reveal an
 unfinished post. The homepage intro is `content/_index.md`; the About page is
 `content/about/index.md` — edit and publish them the same way.
