@@ -15,3 +15,28 @@ Rank allows us to think about how to do this more efficiently: a rank R matrix c
 
 We constrain ΔW to rank r; we essentially constrain how many independent "directions of change" its allowed to have without constraining how large the change can be along those directions.
 
+How does it work? Lets look at the original weight matrix $W_o \in \mathbb{R}^{d \times k}$ . Now instead of learning a change to the weights $\Delta W \in \mathbb{R}^{d \times k}$ we constrain it to a low rank factorisation $$
+\Delta W = BA, \quad B \in \mathbb{R}^{d \times r}, \quad A \in \mathbb{R}^{r \times k}, \quad r \ll \min(d, k)
+$$
+We choose r as a hyperparameter.
+
+The forward pass is now:
+$$
+h = W_o x + \Delta W_o x = W_o x + BAx
+$$
+AND $W_o$ is the frozen pretrained weights and BA is trainable! The full $\Delta W$ would have had $d*k$ parameters but now the BA only has $d*r + r*k$ parameters. Usually with LORA in practice we train under 1% of the full parameter amount! Also, Adam's moment buffers get smaller since we only size for A and B and not the full $W_o$ !
+
+## Initialisation
+
+
+## Scaling factor
+
+## Which weight matrices get adapted?
+
+## No inference time cost
+
+## Comparison to other PEFT
+
+## Variants
+
+## Limitations in choosing r and $\alpha$
