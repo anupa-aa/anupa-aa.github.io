@@ -1,5 +1,5 @@
 ---
-title: DINO family of models
+title: dino
 date: 2026-05-20
 summary: Technical report on Dino, Dinov2 and Dinov3
 math: true

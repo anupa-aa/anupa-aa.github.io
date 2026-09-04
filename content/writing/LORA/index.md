@@ -1,5 +1,5 @@
 ---
-title: LORA
+title: lora
 date: 2026-08-23
 summary: Almost everything about LORA and some other stuff
 math: true

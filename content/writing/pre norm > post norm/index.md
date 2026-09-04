@@ -1,5 +1,5 @@
 ---
-title: Template
+title: pre norm > post norm
 date: 2026-05-20
 summary: Technical report xxx
 math: true

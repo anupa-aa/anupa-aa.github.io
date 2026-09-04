@@ -1,5 +1,5 @@
 ---
-title: Template
+title: what if we just got rid of normalisation
 date: 2026-05-20
 summary: Technical report xxx
 math: true

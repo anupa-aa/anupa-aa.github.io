@@ -1,5 +1,5 @@
 ---
-title: Template
+title: anything can be a token if you try hard enough
 date: 2026-05-20
 summary: Technical report xxx
 math: true
