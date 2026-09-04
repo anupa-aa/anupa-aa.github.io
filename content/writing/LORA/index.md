@@ -1,6 +1,7 @@
 ---
 title: lora
 date: 2026-08-23
+draft: true
 summary: Almost everything about LORA and some other stuff
 math: true
 ---

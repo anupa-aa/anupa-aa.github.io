@@ -1,6 +1,6 @@
 ---
 title: reaper grow operation
-weight: 1
+weight: 3
 blurb: passion project
 link:
 ---

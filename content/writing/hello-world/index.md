@@ -1,6 +1,7 @@
 ---
 title: Template
 date: 2026-05-20
+draft: true
 summary: Technical report xxx
 math: true
 ---

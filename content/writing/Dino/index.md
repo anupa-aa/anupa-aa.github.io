@@ -1,6 +1,7 @@
 ---
 title: dino
 date: 2026-05-20
+draft: true
 summary: Technical report on Dino, Dinov2 and Dinov3
 math: true
 link:

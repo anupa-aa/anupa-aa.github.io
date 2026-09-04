@@ -1,6 +1,7 @@
 ---
 title: anything can be a token if you try hard enough
 date: 2026-05-20
+draft: true
 summary: Technical report xxx
 math: true
 ---

@@ -1,6 +1,6 @@
 ---
 title: my websites
-weight: 1
+weight: 2
 blurb: ml leetcody/ edutech websites. free forever.
 link: https://crackedaicode.com/
 ---
