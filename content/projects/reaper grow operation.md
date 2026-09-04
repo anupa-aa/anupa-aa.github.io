@@ -12,10 +12,11 @@ The setup (£149 - yes you read that right)
 £60 - SF1000D grow lights.
 £30 - WADEO 52cmx52cm heat mat.
 £20 - Tricho protect bio fungicide.
-£14 - Pack of seedling starter trays.
+£14 - Pack of seedling starter trays (I got scammed by big tray).
 £8 - 20 reaper seeds.
 £7 - Coir (.65kg).
 £7 - Perlite (1L).
 £3 - Liquid fertiliser for chillis.
 
-Its ok. These reapers are gonna make me rich.
+Its ok. These reapers are gonna make me rich. Just a note, if you're trying to replicate, please buy these from a gardening centre - it will be a lot, lot cheaper than getting it off amazon like what I did.
+
